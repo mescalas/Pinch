@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		435367552972E9270069556C /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435367542972E9270069556C /* InfoPanelView.swift */; };
 		563E1036296C871B0063D342 /* PinchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E1035296C871B0063D342 /* PinchApp.swift */; };
 		563E1038296C871B0063D342 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E1037296C871B0063D342 /* ContentView.swift */; };
 		563E103A296C871B0063D342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 563E1039296C871B0063D342 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		435367542972E9270069556C /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoPanelView.swift; path = Pinch/InfoPanelView.swift; sourceTree = SOURCE_ROOT; };
 		563E1032296C871B0063D342 /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		563E1035296C871B0063D342 /* PinchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinchApp.swift; sourceTree = "<group>"; };
 		563E1037296C871B0063D342 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		563E1045296C88A80063D342 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				435367542972E9270069556C /* InfoPanelView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			files = (
 				563E1038296C871B0063D342 /* ContentView.swift in Sources */,
 				563E1036296C871B0063D342 /* PinchApp.swift in Sources */,
+				435367552972E9270069556C /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
