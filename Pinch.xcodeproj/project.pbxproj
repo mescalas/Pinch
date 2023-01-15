@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		431C6EB229743BAB00ED3246 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431C6EB129743BAB00ED3246 /* PageModel.swift */; };
+		431C6EB429743C1500ED3246 /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431C6EB329743C1500ED3246 /* PageData.swift */; };
 		435367552972E9270069556C /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435367542972E9270069556C /* InfoPanelView.swift */; };
 		435367572972F6650069556C /* ControlsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435367562972F6650069556C /* ControlsImageView.swift */; };
 		563E1036296C871B0063D342 /* PinchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563E1035296C871B0063D342 /* PinchApp.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		431C6EB129743BAB00ED3246 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageModel.swift; path = Pinch/PageModel.swift; sourceTree = SOURCE_ROOT; };
+		431C6EB329743C1500ED3246 /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PageData.swift; path = Pinch/PageData.swift; sourceTree = SOURCE_ROOT; };
 		435367542972E9270069556C /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoPanelView.swift; path = Pinch/InfoPanelView.swift; sourceTree = SOURCE_ROOT; };
 		435367562972F6650069556C /* ControlsImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ControlsImageView.swift; path = Pinch/ControlsImageView.swift; sourceTree = SOURCE_ROOT; };
 		563E1032296C871B0063D342 /* Pinch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,6 +89,7 @@
 		563E1044296C88A00063D342 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				431C6EB129743BAB00ED3246 /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -101,6 +106,7 @@
 		563E1046296C88B50063D342 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				431C6EB329743C1500ED3246 /* PageData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -176,8 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				435367572972F6650069556C /* ControlsImageView.swift in Sources */,
+				431C6EB229743BAB00ED3246 /* PageModel.swift in Sources */,
 				563E1038296C871B0063D342 /* ContentView.swift in Sources */,
 				563E1036296C871B0063D342 /* PinchApp.swift in Sources */,
+				431C6EB429743C1500ED3246 /* PageData.swift in Sources */,
 				435367552972E9270069556C /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
